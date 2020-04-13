@@ -1,0 +1,16 @@
+@import "variables";
+@import "utilities";
+@import "header";
+@import "footer";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  color: $color-1;
+  background-color: $color-5;
+  font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}

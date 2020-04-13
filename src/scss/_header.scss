@@ -1,0 +1,18 @@
+#Navbar {
+  color: $color-5;
+  background-color: $color-1;
+
+  .nav-link {
+    color: $color-5;
+
+    &.active {
+      color: $color-1;
+      background-color: $color-4;
+      font-weight: bold;
+    }
+
+    &:hover {
+      background-color: $color-2;
+    }
+  }
+}
