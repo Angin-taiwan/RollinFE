@@ -18,7 +18,7 @@ export default function Header() {
           <Nav.Link className={ useLocation().pathname === "/Shoes" ? "active": ""} href="/Shoes">鞋子</Nav.Link>
           <Nav.Link className={ useLocation().pathname === "/Accessories" ? "active": ""} href="/Accessories">配件</Nav.Link>
           <Nav.Link className={ useLocation().pathname === "/BrandNew" ? "active": ""} href="/BrandNew">最新商品</Nav.Link>
-          <Nav.Link className={ useLocation().pathname === "/Courses" ? "active": ""} href="/Courses">課程</Nav.Link>
+          <Nav.Link className={ useLocation().pathname === "/Courses" ? "active": ""} href="/Course">課程</Nav.Link>
           <Nav.Link className={ useLocation().pathname === "/About" ? "active": ""} href="/About">關於我們</Nav.Link>
         </Nav>
         <Nav>
