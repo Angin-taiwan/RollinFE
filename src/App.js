@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/News">
+        <Route path="/News">
           <News />
         </Route>
         <Route path="/About">
@@ -51,19 +51,19 @@ function App() {
         <Route path="/BrandNew">
           <BrandNew />
         </Route>
-        <Route exact path="/Course">
+        <Route path="/Course">
           <Course />
         </Route>
-        <Route exact path="/User/Coupon">
+        <Route path="/User/Coupon">
           <Ticket />
         </Route>
-        <Route exact path="/User">
+        <Route path="/User">
           <User />
         </Route>
-        <Route exact path="/User/Wishlist">
+        <Route path="/User/Wishlist">
           <Wishlist />
         </Route>
-        <Route exact path="/Cart">
+        <Route path="/Cart">
           <Cart />
         </Route>
       </Switch>
