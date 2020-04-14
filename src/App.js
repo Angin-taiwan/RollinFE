@@ -19,7 +19,6 @@ import Cart from "./pages/Cart";
 function App() {
   return (
     <Router>
-
       <Header />
       <Footer />
 
@@ -51,7 +50,7 @@ function App() {
         <Route path="/BrandNew">
           <BrandNew />
         </Route>
-        <Route exact path="/Course">
+        <Route path="/Course">
           <Course />
         </Route>
         <Route exact path="/User/Coupon">
@@ -67,7 +66,6 @@ function App() {
           <Cart />
         </Route>
       </Switch>
-
     </Router>
   );
 }
