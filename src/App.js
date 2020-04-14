@@ -19,6 +19,7 @@ import Cart from "./pages/Cart";
 function App() {
   return (
     <Router>
+
       <Header />
       <Footer />
 
@@ -66,6 +67,7 @@ function App() {
           <Cart />
         </Route>
       </Switch>
+
     </Router>
   );
 }
