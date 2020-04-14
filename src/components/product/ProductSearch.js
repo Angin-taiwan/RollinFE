@@ -1,6 +1,6 @@
 import React from "react";
 import Breadcrumb from "./Breadcrumb";
-import "./stars.scss";
+
 function ProductSearch() {
   return (
     <>
