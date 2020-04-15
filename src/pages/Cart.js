@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+
+import CartStep from "../components/Cart/CartStep";
+import CartTable from "../components/Cart/CartTable";
 
 function Cart() {
   return (
     <>
-      <h1>Cart</h1>
+      <CartStep />
+      <div className="container">
+        <CartTable />
+      </div>
     </>
-  )
+  );
 }
 
-export default Cart
+export default Cart;
