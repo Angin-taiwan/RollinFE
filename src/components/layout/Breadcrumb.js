@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter, Link } from "react-router-dom";
 
 function Breadcrumb(props) {
-  console.log(props);
+  // console.log(props);
 
   let path = "";
   const pathname = props.location.pathname;
