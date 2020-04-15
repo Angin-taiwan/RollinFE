@@ -1,5 +1,4 @@
 import React from "react";
-import "../../scss/_cartStep.scss";
 
 function CartStep() {
   return (
