@@ -3,8 +3,6 @@ import Product1 from "./Product1.jpg";
 import Product2 from "./Product2.jpg";
 import Product3 from "./Product3.jpg";
 import Product4 from "./Product4.jpg";
-import "../../scss/_productMouseOver.scss";
-import "../../scss/_productStars.scss";
 
 function ProductItem() {
   const display = (
